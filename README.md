@@ -1,6 +1,6 @@
-Desafios do stage 03 do curso Explorer da Rocketseat.
+Stage 03 challenges of Rocketseat's Explorer course.
 
-- [CriandoFormularios01](./CriandoFormularios01/): Desafio para criar formulário, nível intermediário.
-- [CriandoFormularios02](./CriandoFormularios02/): Desafio para criar formulário, nível avançado.
-- [MobileFirst](./MobileFirst/): Desafio que trabalha a responsividade e o mobile first.
-- [GridAnimacoes](./GridAnimacoes/): Desafio que trabalha com grid e animações.
+- [CreatingForms01](./CriandoFormularios01/): Challenge to create a form, intermediate level.
+- [CreatingForms02](./CriandoFormularios02/): Challenge to create a form, advanced level.
+- [MobileFirst](./MobileFirst/): Challenge that works on responsiveness and mobile first.
+- [GridAnimations](./GridAnimacoes/): Challenge that works with grid and animations.
