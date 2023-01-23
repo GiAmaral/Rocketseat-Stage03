@@ -5,17 +5,17 @@
 }
 
 :root {
+    font-size: 62.5%;
+
     --ff-body: 'Staatliches', cursive;
     --ff-p: 'Palanquin', sans-serif;
     --ff-description: 'Roboto', sans-serif;
     --ff-footer: 'Open Sans', sans-serif;
-    ;
-    font-size: 62.5%;
     --fs-body: 1.39rem;
     --fs-h1: 4.0rem;
     --fs-h2: 2.0rem;
     --fs-footer: 1.4rem;
-    --fs-discrption: 1.6rem;
+    --fs-description: 1.6rem;
     --bg-body: hsla(233, 100%, 97%, 1);
     --bg-header: hsla(218, 17%, 62%, 1);
     --bg-white: hsla(0, 0%, 100%, 1);
@@ -101,8 +101,8 @@ p {
     animation: downtop 700ms;
 }
 
-.paletas-repeat,
-.picoles-repeat {
+.palettes-repeat,
+.popsicle-repeat {
     display: none;
 }
 
@@ -179,7 +179,7 @@ footer {
         width: 27.5rem;
         font-family: var(--ff-description);
         font-weight: 400;
-        font-size: var(--fs-discrption);
+        font-size: var(--fs-description);
         line-height: 2.3rem;
         color: var(--fc-h1);
     }
@@ -203,35 +203,35 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-            "paletas shakes paletas2"
-            "picoles shakes picoles2"
-            "picoles massas picoles2";
+            "palettes shakes palettes2"
+            "popsicle shakes popsicle2"
+            "popsicle pasta popsicle2";
     }
 
-    .paletas {
-        grid-area: paletas;
+    .palettes {
+        grid-area: palettes;
     }
 
-    .paletas-repeat {
+    .palettes-repeat {
         display: block;
-        grid-area: paletas2;
+        grid-area: palettes2;
     }
 
     .shakes {
         grid-area: shakes;
     }
 
-    .massas {
-        grid-area: massas;
+    .pasta {
+        grid-area: pasta;
     }
 
-    .picoles {
-        grid-area: picoles;
+    .popsicle {
+        grid-area: popsicle;
     }
 
-    .picoles-repeat {
+    .popsicle-repeat {
         display: block;
-        grid-area: picoles2;
+        grid-area: popsicle2;
     }
 
     .card img {
